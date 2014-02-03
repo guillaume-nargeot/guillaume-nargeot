@@ -1,7 +1,7 @@
-# Monadic Ripples
+# Monadic Ripples [![Build Status](https://travis-ci.org/guillaume-nargeot/guillaume-nargeot.github.io.png?branch=master)](https://travis-ci.org/guillaume-nargeot/guillaume-nargeot.github.io)
 
-[Monadic Ripples](http://guillaume-nargeot.github.io/) (my technical blog)
+[My blog](http://guillaume-nargeot.github.io/ "Monadic Ripples")
 
-[![Build Status](https://travis-ci.org/guillaume-nargeot/guillaume-nargeot.github.io.png?branch=master)](https://travis-ci.org/guillaume-nargeot/guillaume-nargeot.github.io)
+
 
 
