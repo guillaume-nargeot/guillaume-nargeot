@@ -11,24 +11,24 @@ Solving [Project Euler problem 204](http://projecteuler.net/problem=204 "Project
 Counting generilized Hamming Numbers is similar to counting coin combinations in [problem 31](http://projecteuler.net/problem=31 "Project Euler problem 31"), but with products instead of sums.<br/>
 Below is the original sum counting algorithm:
 
-```haskell
+{% highlight haskell %}
 sumCombinationCount 0 _ = 1
 sumCombinationCount _ [] = 0
 sumCombinationCount r (c:cs) = if r < 0
     then 0
     else sumCombinationCount (r - c) (c:cs) + sumCombinationCount r cs
-```
+{% endhighlight %}
 
 Adapting the recursive algorithm from sum counting to product counting is quite straightforward:
 
-```haskell
+{% highlight haskell %}
 prodCombinationCount limit = prodCombinationCount' 1 1
     where prodCombinationCount' count _ [] = count
           prodCombinationCount' count p (m:ms) = if p > limit
               then count - 1
               else prodCombinationCount' (count + 1) (p * m) (m:ms)
                  + prodCombinationCount' 0 p ms
-```
+{% endhighlight %}
 
 Within the given conditions of the problem, this algorithm runs in roughly half a second on my laptop.
 
