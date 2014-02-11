@@ -10,7 +10,7 @@ tags: []
 Welcome to my blog, *Monadic Ripples*, in which I will mostly write about programming related topics.
 
 This blog is meant to be a revival of the [previous blogspot one](http://guillaume-nargeot.blogspot.com/ "Previous blog on blogspot") that I stopped updating already more than 3 years ago.
-In this new version, I will use Jekyll with GitHub Pages, which I think makes many things simpler.
+In this new version, I will use Jekyll with GitHub Pages, which will simplify many things.
 
 In the next few weeks, I will try to import the posts from that previous blog, explaining why some posts are older than this one.
 
