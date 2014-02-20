@@ -34,7 +34,7 @@ Within the given conditions of the problem, this algorithm runs in roughly half 
 
 Below is the code for a standalone solution:
 
-{% gist 8931069 Problem214.hs %}
+{% gist 8931069 Problem204.hs %}
 
 The [full solution](https://github.com/guillaume-nargeot/project-euler-haskell/blob/master/src/ProjectEuler/Problem204.hs "Project Euler problem 204 solution on GitHub") is also available on my [Project Euler Haskell solutions repository on GitHub](https://github.com/guillaume-nargeot/project-euler-haskell "Project Euler Haskell Solutions on GitHub").
 
