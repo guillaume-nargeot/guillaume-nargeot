@@ -8,7 +8,7 @@ tags: [haskell, hpc, coverage, coveralls]
 {% include JB/setup %}
 
 This is a quick post to announce the first version of [hpc-coveralls](https://github.com/guillaume-nargeot/hpc-coveralls/),
-a small project I've been working on during the past few days,
+a small project I've been working on during the past few weeks,
 which provides functionality to send [hpc](http://www.haskell.org/haskellwiki/Haskell_program_coverage) code coverage report for
 Haskell projects to [coveralls.io](http://coveralls.io/).
 
