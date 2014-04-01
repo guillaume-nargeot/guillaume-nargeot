@@ -13,7 +13,7 @@ which provides functionality to send [hpc](http://www.haskell.org/haskellwiki/Ha
 Haskell projects to [coveralls.io](http://coveralls.io/).
 
 In order to use hpc-coveralls with [Travis CI](http://travis-ci.org),
-you just have to add the following commands to your `.travis.yml` file.
+you just have to add the following commands to your `.travis.yml` file:
 
 ##### 1. Install of hpc-coveralls in the *before_install* section:
 {% highlight yaml %}
